@@ -1,0 +1,74 @@
+=== query (test index) 4097 ===
+gradient, 8 edits, P(bound): 0.022 -> 0.981, second model: 0.372
+pos        30        40        50        60        70   
+original CTGCTGGTCAGCCATTGTGCTAACAAAAGCTCTTCGCAGGGTGCCCT
+counterf CTGCTTGGCAGCCATTGTGCTAACAAAAGATTTCCCCAGAGCGCCCT
+edits         ^ ^                     ^ ^ ^ ^   ^ ^     
+FIMO hit                                                
+         no new FIMO hit
+
+genetic, 24 edits, P(bound): 0.022 -> 0.569, second model: 0.277
+pos        30        40        50        60        70   
+original CTGCTGGTCAGCCATTGTGCTAACAAAAGCTCTTCGCAGGGTGCCCT
+counterf CTACAATATGGACACCCTACTTACCACAGCAGAGGATAGGGACCCCT
+edits      ^ ^^^^^^ ^  ^^^ ^  ^  ^ ^   ^^^^^^^    ^^    
+FIMO hit                                                
+         no new FIMO hit
+
+greedy, 2 edits, P(bound): 0.022 -> 0.794, second model: 0.113
+pos        30        40        50        60        70   
+original CTGCTGGTCAGCCATTGTGCTAACAAAAGCTCTTCGCAGGGTGCCCT
+counterf CTGCTGGTCAGCCATTGTGCTAACAAAAGCTCTCCACAGGGTGCCCT
+edits                                     ^ ^           
+FIMO hit                                                
+         no new FIMO hit
+
+=== query (test index) 3551 ===
+gradient, 16 edits, P(bound): 0.003 -> 0.998, second model: 0.971
+pos        30        40        50        60        70   
+original TTCAATCAGGCTTCTCAGCCCTCTGTGGGGGCGTGGCTCCTCCCCAT
+counterf TTGAATGATTCCTTTGCGCCCTCTGGGGTCGAGTTGCGTATCCCCAT
+edits      ^   ^ ^^ ^ ^ ^^        ^  ^^ ^  ^  ^^^       
+FIMO hit                [-------------]                 
+         created GCGCCCTCTGGGGTC at 43-58, p = 1.9e-05
+
+genetic, 23 edits, P(bound): 0.003 -> 1.000, second model: 0.999
+pos        30        40        50        60        70   
+original TTCAATCAGGCTTCTCAGCCCTCTGTGGGGGCGTGGCTCCTCCCCAT
+counterf TTGGACATGGTTCTGCTGCCACCTGGTGGACACTCGCGGCAGCCCAT
+edits      ^^ ^^^  ^ ^^^ ^   ^^   ^^  ^^^^ ^  ^^ ^^     
+FIMO hit                [-------------]                 
+         created CTGCCACCTGGTGGA at 43-58, p = 1.7e-07
+
+greedy, 2 edits, P(bound): 0.003 -> 0.958, second model: 0.133
+pos        30        40        50        60        70   
+original TTCAATCAGGCTTCTCAGCCCTCTGTGGGGGCGTGGCTCCTCCCCAT
+counterf TTCAATCAGGCTTCTCCGCCCTCTGTGGCGGCGTGGCTCCTCCCCAT
+edits                    ^           ^                  
+FIMO hit                                                
+         no new FIMO hit
+
+=== query (test index) 3561 ===
+gradient, 10 edits, P(bound): 0.055 -> 0.948, second model: 0.552
+pos        30        40        50        60        70   
+original AAGCAGACCTCGACCCGGGCAGCCAGCTTTAGTCCCTTACTGGCCCC
+counterf AAGCAGACCTCGACCCGGGCGGCATTCTTAAATTCCTTAATCTCCCC
+edits                        ^  ^^^   ^ ^ ^     ^ ^^    
+FIMO hit                                                
+         no new FIMO hit
+
+genetic, 23 edits, P(bound): 0.055 -> 0.557, second model: 0.367
+pos        30        40        50        60        70   
+original AAGCAGACCTCGACCCGGGCAGCCAGCTTTAGTCCCTTACTGGCCCC
+counterf AAATAAACTCCACCCCCGTCCTGTAGGATCATTGTGTTTATTGCCCC
+edits      ^^ ^  ^^ ^^   ^ ^ ^^^^  ^^ ^ ^ ^^^  ^^ ^     
+FIMO hit                                                
+         no new FIMO hit
+
+greedy, 2 edits, P(bound): 0.055 -> 0.631, second model: 0.315
+pos        30        40        50        60        70   
+original AAGCAGACCTCGACCCGGGCAGCCAGCTTTAGTCCCTTACTGGCCCC
+counterf AAGCAGACCTCGACCCGGGCAGCCAGCTTTAGTTCCTTACTGCCCCC
+edits                                     ^        ^    
+FIMO hit                                                
+         no new FIMO hit

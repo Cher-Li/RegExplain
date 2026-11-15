@@ -1,0 +1,22 @@
+{
+  "E1_model": "e1_results/tier0_seed565/model.pt",
+  "E1_model_seed": 565,
+  "sample_seed": 565,
+  "reference_seed": 565,
+  "random_AP_seed": 566,
+  "deletion_background_seed": 566,
+  "tie_seed": 567,
+  "deletion_order_seed": 568,
+  "example_seed": 569,
+  "n": 200,
+  "selection": "random positive test sequences, without prediction filtering",
+  "reference_shuffles": 10,
+  "deletion_repeats": 10,
+  "output": "binding probability",
+  "ISM_position_score": "mean original-minus-mutant probability over three alternatives",
+  "DeepLIFT_position_score": "sum of all four channel contributions",
+  "ranking": "absolute scores for AP/deletion; signed scores for Spearman",
+  "example_test_index": 476,
+  "device": "cpu",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]"
+}
