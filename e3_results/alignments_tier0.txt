@@ -1,4 +1,4 @@
-=== query (test index) 784 ===
+query (test index) 784
 gradient, 3 edits, P(bound): 0.088 -> 0.890, second model: 0.960
 pos        30        40        50        60        70   
 original TATTACTTTAGAATAATGTGTTTTGCGGGCTTATCGCCTCATAGATA
@@ -23,20 +23,20 @@ edits                                              ^
 FIMO hit                                                
          no new FIMO hit
 
-=== query (test index) 694 ===
+query (test index) 694
 gradient, 2 edits, P(bound): 0.064 -> 0.986, second model: 0.990
 pos        30        40        50        60        70   
 original CAGTCGTGTTTCATAGAGGCACCGATCAGTAGCGCGAGAGACTCTGA
 counterf CAGTCGTGTTTCATAGAGGCACTGATAAGTAGCGCGAGAGACTCTGA
 edits                          ^   ^                    
 FIMO hit                       [-----]                  
-         created TGATAAG at 50-57, p = 9.7e-05
+         created TGATAAG at 50-57, p = 6.1e-05
 
-genetic, 24 edits, P(bound): 0.064 -> 0.691, second model: 0.811
+genetic, 25 edits, P(bound): 0.064 -> 0.819, second model: 0.746
 pos        30        40        50        60        70   
 original CAGTCGTGTTTCATAGAGGCACCGATCAGTAGCGCGAGAGACTCTGA
-counterf CAATGTTAACTTATAGGAATATTGATAGGCACTGGGAATTATGCTGA
-edits      ^ ^^ ^^^ ^    ^^^^ ^^   ^^ ^ ^^ ^  ^^^ ^^    
+counterf CACTCCTCTGTAATAAGTCCGGTTAGGATTTAGGCTGATGAGACTGA
+edits      ^  ^ ^ ^ ^   ^^^^ ^^^^ ^^ ^ ^^^  ^^^^  ^^    
 FIMO hit                                                
          no new FIMO hit
 
@@ -48,22 +48,22 @@ edits                              ^
 FIMO hit                                                
          no new FIMO hit
 
-=== query (test index) 695 ===
+query (test index) 695
 gradient, 8 edits, P(bound): 0.028 -> 0.980, second model: 0.992
 pos        30        40        50        60        70   
 original AAAATGTGTCAATGTAGGCAAAAGGCTGATCTCCTCAGTTTTTCCTT
 counterf AAAAGTACTCAATGTAGGCAAAAGGCTGATCTGATAAGTGTTTCCTT
 edits        ^^^^                        ^^ ^   ^       
 FIMO hit                                [-----]         
-         created TGATAAG at 59-66, p = 9.7e-05
+         created TGATAAG at 59-66, p = 6.1e-05
 
-genetic, 27 edits, P(bound): 0.028 -> 0.966, second model: 0.979
+genetic, 24 edits, P(bound): 0.028 -> 0.851, second model: 0.844
 pos        30        40        50        60        70   
 original AAAATGTGTCAATGTAGGCAAAAGGCTGATCTCCTCAGTTTTTCCTT
-counterf AACACCTATAACATAGTTGATAAGATTTAAAACTTGGTTTGGCCCTT
-edits      ^ ^^ ^ ^ ^^^^^^^^ ^   ^^ ^ ^^^ ^ ^^^  ^^^    
-FIMO hit                  [-----]                       
-         created TGATAAG at 45-52, p = 9.7e-05
+counterf AAAAGACCCTGATGAGAACAACCGGTTTAGACCTTGACTCCTGCCTT
+edits        ^^^^^^^   ^^^^   ^^  ^ ^ ^^^ ^ ^ ^ ^^ ^    
+FIMO hit                                                
+         no new FIMO hit
 
 greedy, 2 edits, P(bound): 0.028 -> 0.548, second model: 0.577
 pos        30        40        50        60        70   

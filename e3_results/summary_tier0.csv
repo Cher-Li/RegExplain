@@ -1,13 +1,14 @@
 ,gradient,genetic,greedy
-% valid CFs (of k per query),90,100,81
+CFs returned per query (mean of k),3.70,4.00,4.00
+% valid CFs (unique in target class of k),90,100,81
 queries with no valid CF,0 / 30,0 / 30,0 / 30
-sparsity: median edits (IQR),7.0 (4.0-10.0),25.0 (24.0-26.2),2.0 (2.0-2.0)
-fraction of 41 bp window rewritten,17%,61%,5%
-normalised d_H / L (median),0.069,0.248,0.020
-proximity 1 - d_H/L (median),0.931,0.752,0.980
-"change in GC (median, IQR)",+0.000 (-0.010-+0.010),-0.010 (-0.040-+0.020),+0.000 (-0.010-+0.010)
-diversity: mean pairwise Hamming,10.6,26.4,3.0
-motif creation rate,77%  (83/108),46%  (55/120),20%  (19/97)
-"best-hit p drop, log10 (median, IQR)",1.7 (1.5-2.0),1.5 (0.8-1.9),1.1 (0.8-1.5)
-transferability to 2nd model,95%,88%,91%
-seconds per query (mean),55.2,3.8,0.4
+sparsity: median edits (IQR),7.0 (4.0-10.0),26.0 (24.0-27.0),2.0 (2.0-2.0)
+fraction of 41 bp window rewritten,17%,63%,5%
+normalised d_H / L (median),0.069,0.257,0.020
+proximity 1 - d_H/L (median),0.931,0.743,0.980
+"change in GC (median, IQR)",+0.000 (-0.010-+0.010),-0.010 (-0.030-+0.020),+0.000 (-0.010-+0.010)
+diversity: mean pairwise Hamming,10.6,27.2,3.0
+motif creation rate,77%  (83/108),48%  (57/120),20%  (19/97)
+"best hit p drop, log10 (median, IQR)",2.1 (1.6-2.1),1.7 (0.7-2.1),1.2 (0.8-1.4)
+transferability to 2nd model,95%,89%,91%
+seconds per query (median / mean),22.6 / 60.2,4.0 / 4.3,0.4 / 0.5
